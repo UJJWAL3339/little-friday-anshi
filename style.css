@@ -1,0 +1,33 @@
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  text-align: center;
+  background: #0f0f0f;
+  color: white;
+}
+.container {
+  padding: 2rem;
+}
+.bg-image {
+  max-width: 100%;
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+}
+button {
+  background: #9b59b6;
+  color: white;
+  border: none;
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:hover {
+  background: #8e44ad;
+}

@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Little Friday – Anshi Edition</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <img src="anshi.jpg" class="bg-image" alt="Anshi" />
+    <h1>Hi Anshi 💜</h1>
+    <p>I’m Little Friday – here to make your day special 🎉</p>
+    <button onclick="playVoice()">🎙️ Play Greeting</button>
+    <button onclick="playMusic()">🎵 Play Dynamite</button>
+    <div class="chat">
+      <button onclick="chat(0)">Tell me a secret</button>
+      <button onclick="chat(1)">I’m bored</button>
+      <button onclick="chat(2)">Hype me up</button>
+      <p id="reply"></p>
+    </div>
+  </div>
+  <audio id="voice" src="greeting.mp3"></audio>
+  <audio id="music" src="dynamite.mp3" loop></audio>
+  <script src="script.js"></script>
+</body>
+</html>
